@@ -17,6 +17,6 @@ def activation(x):
     '''
     # TODO: Implement your activation function
     
-    result = np.log(1 + np.exp(x))
+    result = 1 / ( 1 + np.log(1 + np.exp(x)))
     
     return result
